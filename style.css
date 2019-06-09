@@ -23,7 +23,7 @@ body {
 
 .navbar-nav li {
   padding-right: .7rem;
-  font-family: 'Playfair Display', serif;
+
 
 
 }
@@ -160,11 +160,19 @@ h3.heading {
 
 .fixed-background h3 {
   margin-bottom: 2rem;
-  font-family: 'Playfair Display', serif;
+
 }
 
 .fixed-background p {
-  margin-top: 1.5rem;
+  margin-top: -3rem;
+}
+
+
+.btn-outline-light {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  fontsize: 1.1rem;
 }
 
 /*============= Quote SECTION =============*/
