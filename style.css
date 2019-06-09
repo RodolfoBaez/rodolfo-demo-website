@@ -46,68 +46,12 @@ body {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 194, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
-/* landing part*/
-/*start of landing page*/
-.home-inner {
-  background-image: url("./img/background2.png");
-}
 
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 38%;
-  z-index: 1;
-  color: white;
-  text-transform: capitalize;
-}
-
-.caption h1 {
-  font-size: 3.8rem;
-  font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
-  padding-buttom: 1rem;
-}
-
-.caption h3 {
-  font-size: 2rem text-shadow:.1rem .1rem .5rem black;
-  padding-buttom: 1.6rem;
-}
-
-.btn-lg {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.3rem;
-  fontsize: 1.1rem;
-}
-
-/*============= COURSE SECTION =============*/
-
-
-/*============= Card SECTION =============*/
-#card .heading{
-  color: rgb(0, 0, 128);
-  font-size: 2.5rem;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 13rem;
-    object-fit: cover;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
-}
-
-.card-title{
-  color: rgba(102, 194, 255) !important;
-}
-
-/*============= resources SECTION =============*/
+/*============= HOME SECTION =============*/
 .fixed {
   background-image: url("giphy.gif");
   z-index: -1;
+
 }
 
 .dark {
@@ -132,6 +76,84 @@ body {
   padding: .6rem 1.3rem;
   fontsize: 1.1rem;
 }
+
+
+/*============= Card SECTION =============*/
+
+.card-img-top {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.card-title{
+  color: rgba(102, 194, 255) !important;
+}
+
+
+
+/*============= resources SECTION =============*/
+#resources .fixed {
+  background-image: url("giphy2.gif");
+  z-index: -1;
+}
+
+#resources .dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+#resources .fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+#resources .fixed-background p {
+  margin-top: 1.5rem;
+}
+
+#resources svg.svg-inline--fa {
+  color: rgba(102, 194, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*============= Quote SECTION =============*/
 .clients img {
