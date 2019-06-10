@@ -24,9 +24,6 @@ body {
 
 .navbar-nav li {
   padding-right: .7rem;
-
-
-
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -36,23 +33,23 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(102, 194, 255) ;
+  color: rgba(102, 194, 255);
 }
 
- .navbar-toggler {  /* change color here look down */
- border-color: rgba(102, 194, 255) !important;
-}
-                                                                                                                                     /* change color here look down */
- .navbar-toggler-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 194, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+.navbar-toggler {
+  /* change color here look down */
+  border-color: rgba(102, 194, 255) !important;
 }
 
+/* change color here look down */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 194, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
 
 /*============= HOME SECTION =============*/
 .fixed {
   background-image: url("giphy.gif");
   z-index: -1;
-
 }
 
 .dark {
@@ -63,13 +60,11 @@ body {
 
 .fixed-background h3 {
   margin-bottom: 2rem;
-
 }
 
 .fixed-background p {
   margin-top: -3rem;
 }
-
 
 .btn-outline-light {
   border-width: medium;
@@ -78,23 +73,18 @@ body {
   fontsize: 1.1rem;
 }
 
-
 /*============= Card SECTION =============*/
-
 .card-img-top {
-    width: 100%;
-    height: 13rem;
-    object-fit: cover;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.card-title{
+.card-title {
   color: rgba(102, 194, 255) !important;
 }
-
-
 
 /*============= resources SECTION =============*/
 #resources .fixed {
@@ -120,46 +110,42 @@ body {
   color: rgba(102, 194, 255);
 }
 
-
 /*============= Team SECTION =============*/
-
-.testimonial{
-  background:white;
+.testimonial {
+  background: white;
   text-align: center;
   padding: 1.875rem 1.875rem 3.125rem;
-  margin:0 1rem 6.25rem;
+  margin: 0 1rem 6.25rem;
   position: relative;
   margin-top: 10.5rem;
 }
 
 .testimonial:before,
-.testimonial:after{
+.testimonial:after {
   content: "";
   border-top: 2.5rem solid white;
-  border-right:7.8rem solid transparent;
+  border-right: 7.8rem solid transparent;
   position: absolute;
-  bottom:-2.5rem;
-  left:0;
-
+  bottom: -2.5rem;
+  left: 0;
 }
 
-.testimonial:after{
+.testimonial:after {
   border-right: none;
   border-left: 7.8rem solid transparent;
-  left:auto;
-  right:0;
+  left: auto;
+  right: 0;
 }
 
-.testimonial .icon{
-  display:inline-block;
+.testimonial .icon {
+  display: inline-block;
   font-size: 5.3rem;
-  color:darkblue;
+  color: darkblue;
   margin-bottom: 1.5rem;
   opacity: 0.6;
 }
 
-
-.testimonial .description{
+.testimonial .description {
   font-size: 1rem;
   color: #777;
   text-align: center;
@@ -169,39 +155,38 @@ body {
   padding-right: 3rem;
 }
 
-.testimonial .testimonial-content{
-  width:100%;
+.testimonial .testimonial-content {
+  width: 100%;
   position: absolute;
-  left:0;
+  left: 0;
 }
 
-.testimonial .pic{
+.testimonial .pic {
   display: inline-block;
-  border:0.3rem solid white;
+  border: 0.3rem solid white;
   border-radius: 50%;
   box-shadow: 0 0 0.125rem 0.125rem rgb(0, 0, 128);
-  overflow:hidden;
+  overflow: hidden;
   z-index: 1;
   position: relative;
 }
 
-.testimonial .pic img{
-  width:100%;
+.testimonial .pic img {
+  width: 100%;
   height: auto;
 }
 
-.testimonial .title{
+.testimonial .title {
   font-size: 1rem;
   font-weight: bold;
-  color:white
-  text-transform:capitalize;
+  color: white text-transform:capitalize;
   margin: 0 0 0.3rem 0;
 }
 
-.testimonial .post{
+.testimonial .post {
   display: block;
   font-style: 0.8rem;
-  color:white;
+  color: white;
 }
 
 .pic img {
@@ -209,12 +194,10 @@ body {
   height: 3.125rem;
 }
 
-.carousel-control-next-icon:after{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 3rem;
   color: blue;
-
-
 }
 
 .carousel-control-prev-icon:after {
@@ -225,13 +208,21 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-margin-right: 2rem;
-margin-left: 2rem;
-margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
 }
 
+.carousel-indicators {
+  margin: 0px;
+  height: 0px;
+}
 
+.carousel-indicators li {
+  height: 3px !important;
+  border-radius: 0px !important;
 
+}
 
 /*============= Footer SECTION =============*/
 footer {
