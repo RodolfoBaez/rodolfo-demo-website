@@ -86,6 +86,10 @@ body {
   color: rgba(102, 194, 255) !important;
 }
 
+.jumbotron{
+  background-color: rgba(102, 194, 255) ;
+}
+
 /*============= resources SECTION =============*/
 #resources .fixed {
   background-image: url("giphy2.gif");
@@ -147,7 +151,6 @@ body {
 
 .testimonial .description {
   font-size: 1rem;
-  color: #777;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -0.06rem;
