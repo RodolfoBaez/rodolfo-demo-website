@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   color: #505962;
+  background-color: rgba(102, 194, 255);
 }
 
 .offset:before {
@@ -57,7 +58,7 @@ body {
 .dark {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
-  padding: 7rem 0.2rem;
+  padding: 9rem 0.2rem;
 }
 
 .fixed-background h3 {
@@ -120,55 +121,96 @@ body {
 }
 
 
+/*============= Team SECTION =============*/
+
+.testimonial{
+  background:white;
+  text-align: center;
+  padding: 1.875rem 1.875rem 3.125rem;
+  margin:0 1rem 6.25rem;
+  position: relative;
+  margin-top: 10.5rem;
+}
+
+.testimonial:before,
+.testimonial:after{
+  content: "";
+  border-top: 2.5rem solid white;
+  border-right:7.8rem solid transparent;
+  position: absolute;
+  bottom:-2.5rem;
+  left:0;
+
+}
+
+.testimonial:after{
+  border-right: none;
+  border-left: 7.8rem solid transparent;
+  left:auto;
+  right:0;
+}
+
+.testimonial .icon{
+  display:inline-block;
+  font-size: 5.3rem;
+  color:darkblue;
+  margin-bottom: 1.5rem;
+  opacity: 0.6;
+}
 
 
+.testimonial .description{
+  font-size: 1rem;
+  color: #777;
+  text-align: justify;
+  margin-bottom: 30px;
+  letter-spacing: -0.06rem;
+}
 
+.testimonial .testimonial-content{
+  width:100%;
+  position: absolute;
+  left:0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*============= Quote SECTION =============*/
-.clients img {
-  width: 100%;
+.testimonial .pic{
+  display: inline-block;
+  border:0.3rem solid white;
   border-radius: 50%;
+  box-shadow: 0 0 0.125rem 0.125rem rgb(0, 0, 128);
+  overflow:hidden;
+  z-index: 1;
+  position: relative;
 }
 
-blockquote svg.svg-inline--fa {
-  color: #1EBBA3;
-  margin: 1rem;
+.testimonial .pic img{
+  width:100%;
+  height: auto;
 }
 
-.client-hr {
-  border-top: .05rem solid #1EBBA3;
+.testimonial .title{
+  font-size: 1rem;
+  font-weight: bold;
+  color:white
+  text-transform:capitalize;
+  margin: 0 0 0.3rem 0;
 }
+
+.testimonial .post{
+  display: block;
+  font-style: 0.8rem;
+  color:white;
+}
+
+.pic img {
+  width: 6.25rem !important;
+  height: 3.125rem;
+}
+
+
+
+
+
 
 /*============= Footer SECTION =============*/
 footer {
