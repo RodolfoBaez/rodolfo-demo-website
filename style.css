@@ -214,6 +214,7 @@ body {
   font-size: 3rem;
   color: blue;
 
+
 }
 
 .carousel-control-prev-icon:after {
@@ -222,6 +223,12 @@ body {
   color: blue;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+margin-right: 2rem;
+margin-left: 1rem;
+margin-top: 3rem;
+}
 
 
 
