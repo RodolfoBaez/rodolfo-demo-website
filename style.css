@@ -115,9 +115,9 @@ body {
   background: white;
   text-align: center;
   padding: 1.875rem 1.875rem 3.125rem;
-  margin: 0 1rem 6.25rem;
+  margin: 0 0 8rem ;
   position: relative;
-  margin-top: 10.5rem;
+  margin-top: 8rem;
 }
 
 .testimonial:before,
