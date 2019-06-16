@@ -235,10 +235,12 @@ font-size: 1.4rem
 }
 /*============= payment SECTION =============*/
 
-#card .heading{
+#prices .heading{
   color: white;
   font-size: 3rem;
+}
 
+#prices img{
 
 }
 
