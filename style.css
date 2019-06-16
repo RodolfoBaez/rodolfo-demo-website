@@ -62,8 +62,6 @@ body {
   margin-top: 2rem;
   font-size:3rem;
 
-
-
 }
 
 .fixed-background p {
@@ -78,6 +76,7 @@ font-size: 1.4rem
   padding: .6rem 1.3rem;
   fontsize: 1.1rem;
   margin-top: -1rem;
+
 }
 
 
@@ -236,35 +235,36 @@ font-size: 1.4rem
 }
 
 /*============= Footer SECTION =============*/
-footer {
-  background-color: #40474e;
+
+#footer .btn-outline-light {
+margin-top: 0.5rem;
+margin-right: 7rem;
+}
+
+#footer .fixed {
+  background-image: url("giphy2.gif");
+  z-index: -1;
+}
+
+#footer .dark {
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
-  padsding: 2rem 0 2rem;
-  margin-top: 1rem;
+  padding: 3rem 0rem;
 }
 
-footer img {
-  height: 2rem;
-  margin: 1.5rem 0;
+#footer svg.svg-inline--fa {
+  color: rgba(102, 194, 255);
 }
 
-footer a {
-  color: white;
+#footer .heading{
+  float: left;
 }
 
-footer svg.svg-inline--fa {
-  font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0
-}
+#footer hr{
 
-footer svg.svg-inline--fa:hover {
-  color: #1EBBA3 !important;
-}
-
-hr.socket {
-  width: 100%;
-  border-top: 1.2rem solid #666b71;
-  margin-top: 3rem;
+   background-color: rgba(102, 194, 255);
+   height: 0.2rem;
+   margin-top: 2.5rem;
 }
 
 /*============= media queries =============*/
